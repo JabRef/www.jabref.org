@@ -1,7 +1,7 @@
 ---
 title: General
 id: general
-bg: turquoise
+bg: orange
 color: white
 style: left
 ---
