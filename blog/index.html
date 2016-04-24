@@ -25,16 +25,22 @@ title: JabRef Blog
   <div id="main">
       
     <nav><ul>
-        <li class="p-{{ site.posts.first.id }}"><a href="#{{ site.posts.first.id }}">Top</a></li>
-        <li class="p-welcome"><a href="#welcome">JabRef Blog</a></li>
-        <li class="p-{{ site.posts.last.id }}"><a href="#{{ site.posts.last.id }}">Bottom</a></li>
+		{% for post in site.posts %}
+			{% assign all_categories = all_categories | append: post.categories | remove: ',' | remove:'/' | remove: '"' | remove: '[' | remove: ']' | append: ' ' | downcase %}
+		{% endfor %}
+		{% assign current_categories = all_categories | split: ' ' | uniq %}
+      <li class="category"><a class="absolute" href="#">all</a></li>
+		{% for current_category in current_categories %}
+			<li class="category"><a class="absolute" href="#">{{ current_category }}</a></li>
+		{% endfor %}
     </ul></nav>
     
 
     {% for page in site.posts %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
-      <div id="{{id}}" class="section p-{{id}}">
-        <div class="container {{ page.style  | default: "left" }}">
+	  {% capture category %}{{ page.categories | remove:'/' | remove: '"' | remove: '[' | remove: ']'| downcase }}{% endcapture %}
+      <div id="{{id}}" class="section p-{{id}} {{category | remove: ','}}">
+        <div class="container {{ page.style | default: 'left' }}">
             <h1>{{ page.date | date: '%B %d, %Y' }} &ndash;  {{ page.title }}</h1>
             <div class="postauthor">{{page.author | markdownify}}</div>
             {{ page.content }}
