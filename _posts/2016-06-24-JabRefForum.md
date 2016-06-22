@@ -8,18 +8,23 @@ In cooperation with [discourse](http://www.discourse.org) a new forum for JabRef
 
 You can find it by now in main navigation on JabRef.org or directly here: http://discourse.jabref.org
 
+The main reasons for introdcuing the forum are:
 
+ - Foster the communication between the large user base and the developers of JabRef, creation of an active *"JabRef community"*
+ - Provide an easier to use, searchable, more modern way to give feedback and request help
+ - Provide a better place for feature and enhancement discussions by a dedicated category for such topics
+ - Reduce the number of created issues at the GitHub tracker - only real bugs and work-in-progress feature requests should be handled there
+
+We hope you'll like the new forum as much as we do and join us at  http://discourse.jabref.org!
 
 During the last years we started to move away from sourceforge.net (for various reasons): The code is now managed at GitHub, downloads are handled by FossHub and we are using our own domain JabRef.org for hosting the website and this blog.
 
-However, there we still some things left at sourceforge: 
-Longstanding JabRef user might be aware that there was forum at sourceforge some time ago which has been closed.
-Moreover, there are two mailing lists on for developers, and [one for users](https://lists.sourceforge.net/lists/listinfo/jabref-users).
+However, there is still a mailing list left on sourceforge: https://lists.sourceforge.net/lists/listinfo/jabref-users
 
 With the new forum we now again provide an easy to use platform to ask questions (and hopefully to get answers) from the JabRef community.
-Thus, we decided to officially discontinue the support on the mailing list. We'll leave the list open for some time - but the official communcation channels for the future will be the GitHub issue tracker and the discourse forum.
+Thus, we decided to officially discontinue the support on the mailing list. We'll leave the list open for some time - but the official communcation channels for the future will be the GitHub issue tracker (for bugs) and the discourse forum (for all other questions, feature requests and feedback).
 
-For those of you who like to stick with a mailing-list like behavior we provide you a guide on how to use the discourse forum just like a mailing list.
+For those of you who like to stick with a mailing-list like behavior we provide you [a guide on how to use the discourse forum just like a mailing list](http://discourse.jabref.org/t/quick-start-guide-for-former-mailing-list-users/31).
 
 *Thanks again to [discourse.org](http://www.discourse.org) for the great software and especially for providing us free hosting!*
 
