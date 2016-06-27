@@ -17,7 +17,7 @@ The main reasons for introducing the forum are:
  - Provide a better place for feature and enhancement discussions by a [dedicated category for such topics](http://discourse.jabref.org/c/features)
  - Reduce the number of created issues at the GitHub tracker - only real bugs and work-in-progress feature requests should be handled there
 
-We hope you'll like the new forum as much as we do and join us at [http://discourse.jabref.org](http://discourse.jabref.org)!
+We hope you'll like the new forum as much as we do and join us at [http://discourse.jabref.org](http://discourse.jabref.org) to contribute with your knowledge!
 
 ### Discontinued support at the mailing list
 
