@@ -4,6 +4,7 @@ id: faster-jabref
 bg: jabref-font
 color: white
 author: "[mlep](https://github.com/mlep)"
+category: user
 ---
 
 Some users reported JabRef was slow on large databases (thank you for the feedback!).

@@ -5,6 +5,7 @@ In case you want to review your change locally, consult [README.md](README.md).
 ## contribute blog posts
 * Copy an existing post in `_posts` and adapt it
 * Put title in quotes (`"..."`) to ensure that the tool is able to process it
+* When adding categories to your post please use the category attribute even when adding multiple categories
 * You can add blog posts appearing in the future
 * Place images in `/img` and refer to them by `![image: SHORTTEXT]({{ site.url }}/img/FILENAME.png)`
 

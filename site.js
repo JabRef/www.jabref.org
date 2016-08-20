@@ -91,5 +91,19 @@ $(document).ready(function (){
         }
 	});
 
+	$(".category a").each(function(){
+		$(this).click(function(){
+			var txt = $(this).text().toLowerCase();
+			$( ".section:not(#footer)" ).each(function() {
+				var catClass = $(this).attr("class");
+				if (txt=="all" || (catClass != null && catClass.indexOf(txt) > -1)) {
+					$(this).show();
+				} else {
+					$(this).hide();
+				}
+			});
+		});
+	});
+
 });
 

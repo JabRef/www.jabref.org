@@ -4,6 +4,7 @@ id: JabRefWinEdt
 bg: jabref-font
 color: white
 author: "[JabRef Developers](https://github.com/orgs/JabRef/teams/developers)"
+category: user
 ---
 
 For a longtime, a single click on a toolbar button has allowed JabRef to insert citations in [WinEdt](http://www.winedt.com).
