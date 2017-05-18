@@ -89,3 +89,9 @@
     width: 0;
     height: 0;
   }
+
+  /* Custom UL align */
+    .container.center ul {
+    display: inline-block;
+    text-align: left;
+}
