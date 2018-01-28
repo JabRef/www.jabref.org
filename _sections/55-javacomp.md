@@ -1,7 +1,7 @@
 ---
 title: Java by Comparison
 bg: blue
-color: blue
+color: lightgray
 style: center
 fa-icon: book
 ---
