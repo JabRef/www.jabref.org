@@ -39,7 +39,7 @@ style: left
 			        <div class="item">
 			            <img src="img/jabref-5-0-groups.png" alt="JabRef groups feature" class="center-block">
 			            <div class="carousel-caption well well-sm">
-						    <h3>Groups View</h3>
+						    <h3>Groups view</h3>
 						    <p>Group your references with manual or automated (e.g., by author or keyword) assignment.</p>
 					    </div>
 			        </div>
@@ -53,8 +53,15 @@ style: left
 			        <div class="item">
 			            <img src="img/jabref-5-0-parselatex.png" alt="JabRef parse latex feature" class="center-block">
 			            <div class="carousel-caption well well-sm">
-						    <h3>DOI support</h3>
+						    <h3>LaTeX parsing</h3>
 						    <p>Parse LaTeX files for citations, export only cited entries and keep the overview.</p>
+					    </div>
+			        </div>
+					<div class="item">
+			            <img src="img/jabref-5-0-doilookup.png" alt="JabRef DOI lookup" class="center-block">
+			            <div class="carousel-caption well well-sm">
+						    <h3>DOI support</h3>
+						    <p>Automatic lookup of Digital Object Identifiers (DOIs), automatic entry completion based on DOI, automatic fulltext download based on DOI.</p>
 					    </div>
 			        </div>
 			    </div>
