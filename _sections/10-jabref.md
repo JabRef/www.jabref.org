@@ -19,6 +19,7 @@ style: left
 			        <li data-target="#myCarousel" data-slide-to="3"></li>
 			        <li data-target="#myCarousel" data-slide-to="4"></li>
 			        <li data-target="#myCarousel" data-slide-to="5"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
 			    </ol>   
 			    <!-- Wrapper for carousel items -->
 			    <div class="carousel-inner">
@@ -41,6 +42,13 @@ style: left
 			            <div class="carousel-caption well well-sm">
 						    <h3>Groups view</h3>
 						    <p>Group your references with manual or automated (e.g., by author or keyword) assignment.</p>
+					    </div>
+			        </div>
+					<div class="item">
+			            <img src="img/jabref-5-0-fileannotations.png" alt="JabRef annotations viewer" class="center-block">
+			            <div class="carousel-caption well well-sm">
+						    <h3>Annotations view</h3>
+						    <p>Read your PDF annotations within JabRef.</p>
 					    </div>
 			        </div>
 			        <div class="item">
