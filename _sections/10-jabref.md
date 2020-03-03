@@ -65,7 +65,7 @@ style: left
 						    <p>Parse LaTeX files for citations, export only cited entries and keep the overview.</p>
 					    </div>
 			        </div>
-					<div class="item">
+				<div class="item">
 			            <img src="img/jabref-5-0-doilookup.png" alt="JabRef DOI lookup" class="center-block">
 			            <div class="carousel-caption well well-sm">
 						    <h3>DOI support</h3>
