@@ -23,28 +23,28 @@ style: left
 			    <!-- Wrapper for carousel items -->
 			    <div class="carousel-inner">
 			        <div class="item active">
-			            <img src="img/jabRef-5-0-maintable.png" alt="Main table" class="center-block">
+			            <img src="img/jabref-5-0-maintable.png" alt="Main table" class="center-block">
 			            <div class="carousel-caption well well-sm">
 					        <h3>Main table</h3>
 					        <p>All your references listed in a nice looking, sortable table.</p>
 					    </div>
 			        </div>
 			        <div class="item">
-			            <img src="img/JabRef-5-0-entryeditor.png" alt="Entry editor" class="center-block">
+			            <img src="img/jabref-5-0-entryeditor.png" alt="Entry editor" class="center-block">
 			            <div class="carousel-caption well well-sm">
 					        <h3>Entry editor</h3>
 					        <p>Edit your entries using the entry editor.</p>
 					    </div>
 			        </div>
 			        <div class="item">
-			            <img src="img/JabRef-5-0-groups.png" alt="JabRef groups feature" class="center-block">
+			            <img src="img/jabref-5-0-groups.png" alt="JabRef groups feature" class="center-block">
 			            <div class="carousel-caption well well-sm">
 						    <h3>Groups View</h3>
 						    <p>Group your references with manual or automated (e.g., by author or keyword) assignment.</p>
 					    </div>
 			        </div>
 			        <div class="item">
-			            <img src="img/rabref-5-0-search.png" alt="JabRef search feature" class="center-block">
+			            <img src="img/jabref-5-0-search.png" alt="JabRef search feature" class="center-block">
 			            <div class="carousel-caption well well-sm">
 						    <h3>Search for entries</h3>
 						    <p>Advanced and fast search features: Use simple terms, combinations or even regular expressions to search your database.</p>
