@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  </link>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-1 col-md-2"></div>
+        <div class="col-xs-10 col-md-8">
+          <h1 id="jabref-in-google-summer-of-code-2019">JabRef in Google Summer of Code 2019</h1>
+
+<p>This page lists a number of ideas for potential projects to be carried out by the students participating in Google Summer of Code 2019.
+This is by no means a closed list, so the students can feel free to propose alternative activities related to the project (the <a href="http://discourse.jabref.org/c/features">list of feature requests</a> and the <a href="https://github.com/JabRef/jabref/issues">GitHub issue tracker</a> might serve as an additional source of inspiration).
+Students are strongly encouraged to discuss their ideas with the developers and the community to improve their proposal until submission (e.g, using the <a href="https://gitter.im/JabRef/jabref">Gitter Channel</a> or the <a href="http://discourse.jabref.org/">forum</a>).
+It’s also a good idea to start working on <a href="https://github.com/JabRef/jabref/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">one of the smaller issues</a> to make yourself familiar with <a href="https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md">the contribution process</a>.</p>
+
+<h2 id="pdf-integration">PDF Integration</h2>
+
+<ul>
+  <li><em>Description:</em> JabRef excels at organizing and searching the metadata of bibliographic entries. Often the user is also in the possession of the full text (e.g, the article in an electronic form). Currently, these PDF documents can be linked to the corresponding bibliographic entry but are not further analyzed. It would be worthwhile to expand JabRef’s feature set in this regard, for example by adding full text search, automatic extraction of metadata from a PDF, extraction of cited bibliographic entries (and linking them to entries already in the user’s library) and much more. Note that the main focus in this topic is the programming the interface and not the actual search algorithms.</li>
+  <li><em>Skills required:</em> Java, JavaFX (experience with Lucene and/or information retrieveal is a plus)</li>
+  <li><em>Expected outcome:</em>
+    <ul>
+      <li>Integrated search interface which presents search results from attached PDF documents and/or</li>
+      <li>Extraction of additional metadata and a way to display them in the user interface.</li>
+    </ul>
+  </li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/tobiasdiez">Tobias Diez</a>, <a href="https://github.com/LinusDietz">Linus Dietz</a></li>
+</ul>
+
+<h2 id="latex-integration">LaTeX Integration</h2>
+
+<p>This project is finished: <a href="https://blog.jabref.org/2019/08/06/GSoC-LatexCitationsTab/">https://blog.jabref.org/2019/08/06/GSoC-LatexCitationsTab/</a></p>
+
+<ul>
+  <li><em>Description:</em>
+Currently, JabRef is focused on bibliographic management functionalities. However, a deeper integration with the (LaTeX) document text would be beneficial. For example, information about what references are used in which text document, how often and at which position can provide the authors with additional tools to improve theirs works.</li>
+  <li><em>Skills required:</em> Java</li>
+  <li><em>Expected outcome:</em>
+Ability to trace bibliographic entries in (LaTeX) text documents and auxiliary files. Information on the whereabouts, the quantity of usages, position in the text, and jump to file functionality.</li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/tobiasdiez">Tobias Diez</a>, <a href="https://github.com/LinusDietz">Linus Dietz</a></li>
+</ul>
+
+<h2 id="microsoft-word-integration">Microsoft Word Integration</h2>
+
+<ul>
+  <li><em>Description:</em>
+Implement a direct bibliography integration with Microsoft Word. JabRef has a deep integration with BibTeX and biblatex, but can equally be valuable for authors that prefer writing in Microsoft Word. Currently, this integration is lacking and would be highly beneficial as an Open Source alternative to existing software such as Mendeley.</li>
+  <li><em>Old code</em> (not working): <a href="https://github.com/JabRef/JabRef4Word">https://github.com/JabRef/JabRef4Word</a></li>
+  <li><em>Skills required:</em> Java, .NET</li>
+  <li><em>Expected outcome:</em>
+Basic integration of bibliographic functionalities such as inserting, editing, and synching bibliographic entries between Word and JabRef.</li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/tobiasdiez">Tobias Diez</a></li>
+</ul>
+
+<h2 id="sharelatex-integration">ShareLaTeX Integration</h2>
+
+<ul>
+  <li><em>Description:</em> <a href="https://en.wikipedia.org/wiki/ShareLaTeX">ShareLaTeX</a> is an open source online LaTeX editor. It greatly supports researchers in collaboratively writing academic papers. ShareLaTeX, however, misses collaboratively working on bibliographic entries. This is where JabRef jumps in: Changes to the bibliographic data on ShareLaTeX should transparently be integrated in the current local JabRef database, and vice versa. This feature would complement JabRef’s <a href="http://help.jabref.org/en/SQLDatabase">support of collaboratively working using a PostgreSQL database</a>.</li>
+  <li><em>Issue at GitHub:</em> Issue: <a href="https://github.com/JabRef/jabref/issues/156">https://github.com/JabRef/jabref/issues/156</a></li>
+  <li><em>Skills required:</em> Java</li>
+  <li><em>Expected outcome:</em> JabRef should be able to connect to a ShareLaTeX project and update bibliographic data there. Moreover, a local copy of the bibliography file has to kept updated.</li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/koppor">Oliver Kopp</a>, <a href="https://github.com/Siedlerchr">Christoph</a></li>
+</ul>
+
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-1 col-md-2"></div>
+        <div class="col-xs-3 col-md-3">
+          <a href="../">Return to Index</a>
+        </div>
+        <div class="col-xs-2 col-xs-offset-2 col-md-offset-2 col-md-3 text-right">
+          <a href="/blob/gh-pages/GSoC2019.md">Edit this page</a>
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+      </div>
+    </div>
+  </body>
+</html>
