@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  </link>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-1 col-md-2"></div>
+        <div class="col-xs-10 col-md-8">
+          <h1 id="jabref-in-google-summer-of-code-2022">JabRef in Google Summer of Code 2022</h1>
+
+<p>This page lists a number of ideas for potential projects to be carried out by the students participating in Google Summer of Code 2022.
+This is by no means a closed list, so the students can feel free to propose alternative activities related to the project (the <a href="http://discourse.jabref.org/c/features">list of feature requests</a> and the <a href="https://github.com/JabRef/jabref/issues">GitHub issue tracker</a> might serve as an additional source of inspiration).
+Students are strongly encouraged to discuss their ideas with the developers and the community to improve their proposal until submission (e.g., using the <a href="https://gitter.im/JabRef/jabref">Gitter Channel</a> or the <a href="http://discourse.jabref.org/">forum</a>).
+It’s also a good idea to start working on <a href="https://github.com/JabRef/jabref/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">one of the smaller issues</a> to make yourself familiar with <a href="https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md">the contribution process</a>.</p>
+
+<h2 id="collaboration-using-online-services">Collaboration using Online Services</h2>
+
+<ul>
+  <li><em>Description:</em> JabRef currently supports the collaboration using shared SQL databases but lacks connection/integration with other online services, for example, Overleaf or the new web-based reference manager JabRef-Online (still under development). JabRef should offer an abstraction layer that connects and synchronizes with other online services easily. Concurrent modification of entries should be taken into account as well (Optimistic Offline Lock, already implemented for the shared SQL databases).</li>
+  <li><em>Skills required:</em> Java, GraphQL</li>
+  <li><em>Expected outcome:</em> It is possible to synchronize citation entries from a local JabRef installation with JabRef-Online and at least one other online collaboration service (preferable Overleaf).</li>
+  <li><em>Possible mentors:</em>: <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/koppor">@koppor</a>, <a href="https://github.com/tobiasdiez">@tobiasdiez</a></li>
+  <li><em>Project size</em>: 350h (large)</li>
+</ul>
+
+<h2 id="3-way-merge">3-way Merge</h2>
+
+<ul>
+  <li><em>Description:</em>
+JabRef can detect duplicate entries and show a simple two-way merge dialog where changes from either the left side or the right side can be applied. There is no way to edit the merge result directly.
+A big improvement would be to have a 3-way merge dialog as many modern IDEs like Intellij offer. Inspiration for the design and functionality of such a 3-way-merge can be seen in <a href="https://github.com/JabRef/jabref/issues/6190">Issue #6190</a></li>
+  <li><em>Skills required</em>: Java, JavaFX</li>
+  <li><em>Expected outcome</em>: A functioning 3-way merge dialog or a prototype</li>
+  <li><em>Possible mentors:</em>: <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/calixtus">@calixtus</a></li>
+  <li><em>Project size</em>: 175h (medium)</li>
+</ul>
+
+<h2 id="apache-lucene-search">Apache Lucene Search</h2>
+
+<ul>
+  <li><em>Description:</em> JabRef offers an extensive search function that is based on a custom search syntax. The goal is to replace the custom search syntax and grammar with Apache Lucene’s search syntax. It should offer the same functionality as the existing search.</li>
+  <li><em>Skills required</em>: Java, JavaFX (experience with Lucene is a plus)</li>
+  <li><em>Expected outcome</em>: A functioning search that supports the same functionality as the old search. More information can be found in this <a href="https://github.com/JabRef/jabref/pull/8206">PR#8206</a></li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/koppor">@koppor</a>, <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/calixtus">@calixtus</a></li>
+  <li><em>Project size</em>: 175h (medium)</li>
+  <li>Details available at <a href="https://github.com/JabRef/jabref/wiki/GSoC-2022---Apache-Lucene-Search">https://github.com/JabRef/jabref/wiki/GSoC-2022---Apache-Lucene-Search</a></li>
+</ul>
+
+<h2 id="apache-velocity-or-thymeleaf-as-template-engine">Apache Velocity or Thymeleaf as Template Engine</h2>
+
+<ul>
+  <li><em>Description:</em> JabRef has the option to export data in different formats. In addition, it allows you to define and use your own export filters in the same way as the standard export filters are defined. An export filter is defined by one or more layout files, which specify the format of the exported files with the help of a collection of built-in formatter routines.
+JabRef uses a complex custom formatting logic. The idea is to replace this with the template engine from Apache Velocity or Thymeleaf, depending on which seems to be better suited.</li>
+  <li><em>Skills required:</em> Java (experience with Velocity/Thymeleaf or other Template Engines is a plus)</li>
+  <li><em>Expected outcome:</em>
+    <ul>
+      <li>Replacement of the custom export formatter with Apache Velocity or Thymeleaf</li>
+      <li>A Tool for converting old layout based templates to the new syntax</li>
+    </ul>
+  </li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/koppor">@koppor</a>, <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/calixtus">@calixtus</a></li>
+  <li><em>Project size</em>: 350h (large)</li>
+</ul>
+
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-1 col-md-2"></div>
+        <div class="col-xs-3 col-md-3">
+          <a href="../">Return to Index</a>
+        </div>
+        <div class="col-xs-2 col-xs-offset-2 col-md-offset-2 col-md-3 text-right">
+          <a href="/blob/gh-pages/GSoC2022.md">Edit this page</a>
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+      </div>
+    </div>
+  </body>
+</html>

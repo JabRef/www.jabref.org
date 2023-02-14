@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  </link>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-1 col-md-2"></div>
+        <div class="col-xs-10 col-md-8">
+          <h1 id="jabref-in-google-summer-of-code-2023">JabRef in Google Summer of Code 2023</h1>
+
+<p>This page lists a number of ideas for potential projects to be carried out by the persons participating in Google Summer of Code 2023.
+This is by no means a closed list, so the possible contributors can feel free to propose alternative activities related to the project (the <a href="http://discourse.jabref.org/c/features">list of feature requests</a> and the <a href="https://github.com/JabRef/jabref/issues">GitHub issue tracker</a> might serve as an additional source of inspiration).
+Students are strongly encouraged to discuss their ideas with the developers and the community to improve their proposal until submission (e.g., using the <a href="https://gitter.im/JabRef/jabref">Gitter Channel</a> or the <a href="http://discourse.jabref.org/">forum</a>).
+It’s also a good idea to start working on <a href="https://github.com/JabRef/jabref/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">one of the smaller issues</a> to make yourself familiar with <a href="https://github.com/JabRef/jabref/blob/master/CONTRIBUTING.md">the contribution process</a>.</p>
+
+<h2 id="collaboration-using-online-services">Collaboration using Online Services</h2>
+
+<ul>
+  <li><em>Description:</em> JabRef currently supports the collaboration using shared SQL databases but lacks connection/integration with other online services, for example, Overleaf or the new web-based reference manager JabRef-Online (still under development). JabRef should offer an abstraction layer that connects and synchronizes with other online services easily.
+ Concurrent modification of entries should be taken into account as well (Optimistic Offline Lock, already implemented for the shared SQL databases).</li>
+  <li><em>Skills required:</em> Java, GraphQL, REST</li>
+  <li><em>Expected outcome:</em> It is possible to synchronize citation entries from a local JabRef installation with JabRef-Online and at least one other online collaboration service (preferable Overleaf).</li>
+  <li><em>Possible mentors:</em>: <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/koppor">@koppor</a>, <a href="https://github.com/tobiasdiez">@tobiasdiez</a></li>
+  <li><em>Project size</em>: 350h (large)</li>
+</ul>
+
+<h2 id="improved-csl-support">Improved CSL Support</h2>
+
+<ul>
+  <li><em>Description:</em> JabRef can connect to LibreOffice to offer premier reference management for LibreOffice. Currently, custom styles are supported. In this porject, this support should be extended to offer support for the “Citation Style Language” files. A user should be able to choose the CSL style for the reference list and the citation style. Then, the LibreOffice document should adapt accordingly. To increase user experience even more, i) an CSL-based export of library entries and ii) a CSL editor should be integrated into JabRef. This would allow the creation and modification of styles. For more information on CSL refer to https://citationstyles.org/.</li>
+  <li><em>Expected outcome</em>: A) It is possible to select and change a CSL style for a LibreOffice document. B) Entries in JabRef can be exported as file (html). C) CSL style files can be edited</li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/koppor">@koppor</a>, <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/calixtus">@calixtus</a></li>
+  <li><em>Project size</em>: 175h (medium)</li>
+</ul>
+
+<h2 id="improved-slr-support">Improved SLR Support</h2>
+
+<ul>
+  <li><em>Desription:</em> With the ever-growing number of publications in computer science and other fields of research, conducting secondary studies becomes necessary to summarize the current state of the art. For software engineering research, Kitchenham popularized the systematic literature review (SLR) method to address this issue. The main idea is to systematically identify and analyze the majority of relevant publications on a specific topic. This is usually an activity that takes extensive manual effort. Some tool support does exist, but the full potential of tools has not been exploited yet. JabRef also offers basic functionality for systematic literature reviews that is used by a number of researchers to systematically “harvest” related work based on the fetching capabilities of JabRef. While using the feature, various additional feature requests came up. For instance, created search queries are currently transformed internally by JabRef to the query format of the publisher. It should also be possible to directly input a query at the publisher site, e.g., for IEEE or ACM. We recommend starting at <a href="https://github.com/koppor/jabref/issues/615">rename “database” to “catalog”</a> to get an overview of a) the feature and b) the code.</li>
+  <li><em>Expected outcome</em>: All issues labeled “SLR” are fixed. The list is available at <a href="https://github.com/koppor/jabref/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3ASLR">https://github.com/koppor/jabref/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3ASLR</a>.</li>
+  <li><em>Possible mentors:</em> <a href="https://github.com/koppor">@koppor</a>, <a href="https://github.com/Siedlerchr">@Siedlerchr</a>, <a href="https://github.com/calixtus">@calixtus</a></li>
+  <li><em>More information:</em> <a href="https://ceur-ws.org/Vol-2839/paper13.pdf">Dominik Voigt, Oliver Kopp, Karoline Wild:
+Systematic Literature Tools: Are we there yet? ZEUS 2021: 83-88</a></li>
+  <li><em>Project size</em>: 350h (large)</li>
+</ul>
+
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-1 col-md-2"></div>
+        <div class="col-xs-3 col-md-3">
+          <a href="../">Return to Index</a>
+        </div>
+        <div class="col-xs-2 col-xs-offset-2 col-md-offset-2 col-md-3 text-right">
+          <a href="/blob/gh-pages/GSoC2023.md">Edit this page</a>
+        </div>
+        <div class="col-xs-1 col-md-2"></div>
+      </div>
+    </div>
+  </body>
+</html>
